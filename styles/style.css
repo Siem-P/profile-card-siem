@@ -1,7 +1,7 @@
 * {
   box-sizing:border-box;
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
 }
 
 html {
@@ -15,27 +15,56 @@ body {
   font-family: open sans;
   display:flex;
   justify-content:center;
-  align-items:center;
-  
 }
 
 .tv {
-  height: 450px;
+  height: 400px;
   width: 600px;
+  background-color: black;
+  position: relative;
+  top: 20%;
+  border-radius: 5px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  background-color: darkred;
+  justify-content: center;
 
 }
+
+
+
+.onscreen-content1 {
+  width: 97%;
+  height: 95%;
+  background-color: green;
+  position: relative;
+  display: inline-flex;
+}
+
+.column-content-left{
+  width: 50%;
+  height: 100%;
+  position: relative;
+  left: 0;
+  
+
+}
+
+.column-content-right{
+  width: 50%;
+  height: 100%;
+  position: relative;
+  right: 0;
+  
+
+}
+
 .speaker1 {
   width: 85px;
   height: 300px;
   background-color: black;
   position: relative;
-  bottom: 0;
   right: 10%;
-
+  top: 60%;
 }
 
 .speaker2 {
@@ -43,8 +72,8 @@ body {
   height: 300px;
   background-color: black;
   position: relative;
-  bottom: 0;
   left: 10%;
+  top: 60%;
 }
  /* 
 header {
