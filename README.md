@@ -1,2 +1,13 @@
-> Fork deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+
+# Mijn Visitekaartje
+
+![image](https://user-images.githubusercontent.com/64197688/189318530-889e0df3-c21b-4eae-8c95-074d6e7dce2c.png)
+
+
+## 🖋️ Beschrijving!
+
+Hier ben je terecht gekomen bij de repo van mijn visitekaartje.
+
+:o: Voor een live bezichtiging ->
+http://siem.student.fdnd.nl/
 
