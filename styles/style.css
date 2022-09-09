@@ -23,7 +23,7 @@ body {
   height: 400px;
   width: 600px;
   background-color: black;
-  /* position: relative; */
+  position: relative;
   /* top: 20%; */
   border-radius: 5px;
   display: flex;
@@ -63,9 +63,9 @@ body {
   width: 85px;
   height: 300px;
   background-color: black;
-  /* position: relative;
+  position: relative;
   right: 10%;
-  top: 60%; */
+  top: 30%;
 }
 
 .speaker2 {
@@ -74,7 +74,7 @@ body {
   background-color: black;
   position: relative;
   left: 10%;
-  top: 60%;
+  top: 30%;
 }
  /* 
 header {
