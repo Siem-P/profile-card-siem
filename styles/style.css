@@ -1,16 +1,88 @@
+/* Body */
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(68,29,29,1) 47%, rgba(19,66,75,1) 97%);
+}
 
-   /* Mobile Web Design */
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main h1 {
+  display: none;
+}
+
+/* TV-scherm */
+.tv-screen-large {
+  height: 400px;
+  width: 600px;
+  background-color: black;
+  position: relative;
+  /* top: 20%; */
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-picture {
+  display: none;
+  /* width: 12em; */
+}
+
+.profile-picture-siem {
+  width: 12em;
+  display: flex;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: auto;
+  aspect-ratio: 1/1;
+}
+
+.onscreen-content1 {
+  display: flex;
+  width: 97%;
+  height: 95%;
+  background-image: url(../images/windowsxp.jpeg);
+  background-size: 582px 380px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Mobile Web Design */
 @media (max-width: 425px) {
-
   /* Body */
   body {
     height: 100%;
     width: 100%;
     margin: 0;
-    background: rgb(1,15,85);
-    background: -moz-radial-gradient(circle, rgba(1,15,85,1) 0%, rgba(97,31,44,1) 100%);
-    background: -webkit-radial-gradient(circle, rgba(1,15,85,1) 0%, rgba(97,31,44,1) 100%);
-    background: radial-gradient(circle, rgba(1,15,85,1) 0%, rgba(97,31,44,1) 100%);
+    background: rgb(1, 15, 85);
+    background: -moz-radial-gradient(
+      circle,
+      rgba(1, 15, 85, 1) 0%,
+      rgba(97, 31, 44, 1) 100%
+    );
+    background: -webkit-radial-gradient(
+      circle,
+      rgba(1, 15, 85, 1) 0%,
+      rgba(97, 31, 44, 1) 100%
+    );
+    background: radial-gradient(
+      circle,
+      rgba(1, 15, 85, 1) 0%,
+      rgba(97, 31, 44, 1) 100%
+    );
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010f55",endColorstr="#611f2c",GradientType=1);
   }
 
@@ -29,33 +101,38 @@
   }
 
   .home h1 {
+    display: block;
     font-size: 2rem;
     color: white;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     letter-spacing: 2px;
     width: 100%;
     font-variant: small-caps;
   }
 
   .profile-picture {
+    margin: auto;
+    display: block;
     width: 70%;
     height: auto;
     border-radius: 5px;
     border: 1px solid white;
+    aspect-ratio: 1/1;
+    object-fit: cover;
   }
-
 
   /* Hide the speakers */
   .speaker-box {
     display: none;
   }
 
-
+  .tv-screen-large {
+    display: none;
+  }
 }
 
-
-  /* Ipad Air Design */
-@media (min-width: 820px) and (max-width: 1024px) {  
+/* Ipad Air Design */
+@media (min-width: 820px) and (max-width: 1024px) {
   body {
     background: green;
   }
@@ -65,30 +142,3 @@
     display: none;
   }
 }
-
-  /* Desktop Web Design */
-@media (min-width: 1024px) {
-
-  /* Body */
-  body {
-    width:100%;
-    /* height: 100vh; */
-    height: 100%;
-    font-family: open sans;
-    display:flex;
-    justify-content:center;
-    align-items: center;
-  }
-  
-  /* TV-scherm */
-  .tv-large {
-    
-  }
-  
-  
-
-  
- 
-}
-
-
