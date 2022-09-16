@@ -8,10 +8,10 @@
     width: 100%;
     margin: 0;
     background: rgb(1,15,85);
-background: -moz-radial-gradient(circle, rgba(1,15,85,1) 0%, rgba(97,31,44,1) 100%);
-background: -webkit-radial-gradient(circle, rgba(1,15,85,1) 0%, rgba(97,31,44,1) 100%);
-background: radial-gradient(circle, rgba(1,15,85,1) 0%, rgba(97,31,44,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010f55",endColorstr="#611f2c",GradientType=1);
+    background: -moz-radial-gradient(circle, rgba(1,15,85,1) 0%, rgba(97,31,44,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(1,15,85,1) 0%, rgba(97,31,44,1) 100%);
+    background: radial-gradient(circle, rgba(1,15,85,1) 0%, rgba(97,31,44,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010f55",endColorstr="#611f2c",GradientType=1);
   }
 
   main {
@@ -54,15 +54,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010f55",endCo
 }
 
 
-
-
-
-
-
-
-
-
-
   /* Ipad Air Design */
 @media (min-width: 820px) and (max-width: 1024px) {  
   body {
@@ -77,10 +68,24 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#010f55",endCo
 
   /* Desktop Web Design */
 @media (min-width: 1024px) {
-  body {
-    background: gray;
 
+  /* Body */
+  body {
+    width:100%;
+    /* height: 100vh; */
+    height: 100%;
+    font-family: open sans;
+    display:flex;
+    justify-content:center;
+    align-items: center;
   }
+  
+  /* TV-scherm */
+  .tv-large {
+    
+  }
+  
+  
 
   
  
