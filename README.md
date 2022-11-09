@@ -1,7 +1,7 @@
 
 # Mijn Visitekaartje
 
-![image](https://user-images.githubusercontent.com/64197688/189318530-889e0df3-c21b-4eae-8c95-074d6e7dce2c.png)
+![image](https://user-images.githubusercontent.com/64197688/200827083-c6c98491-b3db-4a97-92b2-efc18d78286e.png)
 
 
 ## 🖋️ Beschrijving!
